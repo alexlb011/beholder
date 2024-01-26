@@ -1,0 +1,40 @@
+.imageTeste {
+  mask-image: url("svgs/Card-v2.svg");
+  mask-size: cover;
+  border-radius: 2rem;
+  mask-repeat: no-repeat;
+}
+
+.testeContainer {
+  padding: 1rem;
+}
+
+.itemContainer {
+  /* position: absolute; */
+
+  mask-image: url("svgs/Card-v2.svg");
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  background-image: url("svgs/Card-v2.svg");
+  padding: 1rem;
+  background-size: cover;
+  background-size: 100% 100%;
+  border-radius: 2rem;
+}
+
+.itemContainer:hover {
+  background-color: rgb(194, 0, 26);
+  transform: scale(1.01);
+}
+
+.containerImage {
+  padding: 2rem;
+  /* border: blue 1px solid; */
+}
+
+.Product {
+  /* mask-image: url("svgs/Card-v2-Balck.svg"); */
+  /* mask-image: url("svgs/Card-v2-black-v2.svg"); */
+  mask-size: cover;
+  mask-repeat: no-repeat;
+}

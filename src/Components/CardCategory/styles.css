@@ -1,0 +1,5 @@
+.cardImg {
+  mask-image: url("svgs/Card-v2.svg");
+  mask-size: cover;
+  mask-repeat: no-repeat;
+}

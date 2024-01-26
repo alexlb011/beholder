@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/styles/seu-estilo.css */
+
+@font-face {
+  font-family: "TrickOrTreats";
+  src: local("TrickOrTreats"),
+    url("/fonts/TrickOrTreats.ttf") format("opentype");
+}
+
+body {
+  font-family: "TrickOrTreats", sans-serif;
+}
